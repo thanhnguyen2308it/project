@@ -13,6 +13,10 @@ input {
   }
 }
 
+#header {
+  background-color: #efefefeb;
+}
+
 .logo {
   align-items: center;
   padding: 20px 0;
@@ -35,39 +39,59 @@ input {
 }
 
 .navbar-toggler {
-  display: none;
-  @media (max-width: 679px) {
-    display: block;
+  display: block;
+  @media (min-width: 1024px) {
+    display: none;
   }
 }
 
 .menu {
+  transition: 0.3s;
   background: #f1f1f1;
-  @media (max-width: 679px) {
-    display: none;
+
+  @media (min-width: 1024px) {
+    display: flex !important;
+
   }
+
   .active {
     background-color: rgba(102, 102, 102, 0.7) !important;
   }
-  .d-flex {
+
+  ul {
     align-items: flex-start;
     justify-content: center;
+    flex-direction: column;
+    padding: 0;
+    margin: auto;
+    @media (min-width: 1024px) {
+      flex-direction: row;
+    }
 
     li {
       background: red;
-      padding: 10px 30px;
+      padding: 0px;
       margin-right: 10px;
       list-style: none;
-
+      width: 100%;
+      @media (min-width: 1024px) {
+        width: auto;
+        padding: 10px 30px;
+      }
       &:hover {
         background-color: rgba(102, 102, 102, 0.7);
       }
-    ;
-
       a {
         color: #ffffff;
-        line-height: 30px
+        line-height: 30px;
+        padding: 10px 15px;
+        display: block;
+        @media (min-width: 1024px) {
+          padding: 0px;
+          display: inline-block;
+        }
       }
+    ;
 
       .submenu {
         padding: 0px;
@@ -76,6 +100,10 @@ input {
           padding: 0px;
           background: #f1f1f1;
           margin-right: 0px;
+          width: auto;
+          @media (min-width: 1024px) {
+            width: 100%;
+          }
 
           a {
             color: #8e8d8d;
@@ -87,6 +115,7 @@ input {
     .sub-menu {
       left: 10px;
       top: 5px;
+
     }
   }
 
@@ -106,19 +135,32 @@ input {
       border-bottom: 0;
       border-left: .3em solid transparent;
       color: #ffffff;
+      position: absolute;
+      top: 20px;
+      right: 5px;
+      font-size: 20px;
+      @media (min-width: 1024px) {
+        position: relative;
+        top: 1px;
+        right: auto;
+        font-size: 15px;
+      }
     }
   ;
   }
 
   .dropdown-content {
     display: none;
-    position: absolute;
+    position: static;
     background-color: #f1f1f1 !important;
     min-width: 200px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
-    left: 0px;
-    top: 50px;
+    @media (min-width: 1024px) {
+      position: absolute;
+      left: 0px;
+      top: 50px;
+    }
   }
 
   .dropdown-content a {
@@ -142,6 +184,10 @@ input {
     max-height: 600px;
   }
 
+  .slide {
+    padding-top: 20px;
+  }
+
   .img-box {
     img {
       width: 100%;
@@ -156,6 +202,12 @@ input {
   .box {
     box-shadow: 0 0 5px rgba(0, 0, 0, .255);
     display: block;
+    transition: 0.3s;
+
+    &:hover {
+      transform: translateY(-15px);
+      box-shadow: 0 0 15px rgba(0, 0, 0, .355);
+    }
 
     .title-box {
       padding: 15px 0;
@@ -170,6 +222,7 @@ input {
 .title {
   position: relative;
   text-align: center;
+  margin-bottom: 15px;
 
   &::after {
     content: '';
@@ -185,7 +238,7 @@ input {
 
   span {
     margin-top: 5px;
-    padding: 35px 35px;
+    padding: 25px 10px;
     background: #fff;
     z-index: 11;
     display: inline-block;
@@ -194,9 +247,12 @@ input {
 }
 
 .footer {
-  >.container {
-    padding: 30px 0;
+  .footer-widgets {
+    > .container {
+      padding: 30px 15px;
+    }
   }
+
   .footer-widgets {
     background-color: #777;
 
@@ -265,12 +321,37 @@ input {
       }
     }
   }
+
   .absolute-footer {
     background-color: #5b5b5b;
     color: #ffffff;
     padding: 10px;
+
     .right {
       float: right;
+    }
+  }
+}
+
+.scrolled {
+  position: sticky;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  z-index: 111;
+
+  #logo {
+    padding: 0px;
+  }
+}
+
+.brand-slider {
+  img {
+    filter: grayscale(1);
+    transition: .25s;
+
+    &:hover {
+      filter: grayscale(0);
     }
   }
 }

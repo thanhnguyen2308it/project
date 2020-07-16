@@ -33,7 +33,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../takasu_clinic" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../nenga" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -47,7 +47,8 @@
       <updated>1594804771347</updated>
       <workItem from="1594804772791" duration="2584000" />
       <workItem from="1594874433793" duration="1403000" />
-      <workItem from="1594880736875" duration="2400000" />
+      <workItem from="1594880736875" duration="7467000" />
+      <workItem from="1594891700163" duration="2062000" />
     </task>
     <servers />
   </component>
@@ -55,14 +56,14 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1594881562170">
+    <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1594887888352">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1594881562170" />
-    <state x="648" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1594880742343">
+    <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1594887888352" />
+    <state x="648" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1594891700379">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="648" y="380" key="com.intellij.ide.util.TipDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1594880742343" />
+    <state x="648" y="380" key="com.intellij.ide.util.TipDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1594891700379" />
     <state x="657" y="253" key="run.anything.popup" timestamp="1594880765658">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>

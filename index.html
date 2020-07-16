@@ -34,11 +34,10 @@
                 </div>
             </div>
             <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse"
-                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                    aria-label="Toggle navigation">
+                    data-target="#menu" >
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="flex-row  menu" id="#navbarSupportedContent">
+            <div class="menu collapse" id="menu">
                 <ul class="d-flex">
                     <li class="active"><a href="">Trang chủ</a></li>
                     <li><a href="">Giới thiệu</a></li>
@@ -172,7 +171,7 @@
         </div>
     </main>
     <div class="container slide-2">
-        <div class="owl-carousel owl-theme">
+        <div class="owl-carousel owl-theme brand-slider">
             <div class="item"><img src="image/img4.jpg"></div>
             <div class="item"><img src="image/img4.jpg"></div>
             <div class="item"><img src="image/img4.jpg"></div>
@@ -266,6 +265,15 @@
                 }
             }
         })
+        $(window).scroll(function() {
+            let scroll = $(window).scrollTop();
+            if(scroll > 0) {
+                $("#header").addClass("scrolled");
+            }
+            else {
+                $("#header").removeClass("scrolled");
+            }
+        });
     });
 </script>
 </body>
