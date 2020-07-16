@@ -3,6 +3,10 @@ a {
   a:hover {
     text-decoration: none; }
 
+button:focus,
+input:focus {
+  outline: none; }
+
 .logo {
   align-items: center;
   padding: 20px 0; }
@@ -120,5 +124,60 @@ a {
     z-index: 11;
     display: inline-block;
     position: relative; }
+
+.footer > .container {
+  padding: 30px 0; }
+.footer .footer-widgets {
+  background-color: #777; }
+  .footer .footer-widgets h5 {
+    margin-top: 10px;
+    color: #ffffff; }
+  .footer .footer-widgets p {
+    color: #ffffff; }
+  .footer .footer-widgets .is-divider {
+    height: 3px;
+    display: block;
+    background-color: rgba(255, 255, 255, 0.3);
+    margin: 1em 0 1em;
+    width: 100%;
+    max-width: 30px; }
+.footer .form-flat .email {
+  background-color: rgba(255, 255, 255, 0.2) !important;
+  border-color: rgba(255, 255, 255, 0.09);
+  border-radius: 20px;
+  padding: 5px;
+  margin-bottom: 10px;
+  color: #fff; }
+  .footer .form-flat .email::-webkit-input-placeholder {
+    color: #ffffff; }
+.footer .form-flat .registration {
+  background-color: red;
+  text-transform: uppercase;
+  font-size: .97em;
+  cursor: pointer;
+  font-weight: bolder;
+  text-align: center;
+  color: #ffffff;
+  border: 1px solid transparent;
+  border-radius: 20px;
+  line-height: 2.4em;
+  min-height: 2.5em;
+  padding: 0 1.2em;
+  max-width: 100%;
+  transition: transform .3s, border .3s, background .3s, box-shadow .3s, opacity .3s, color .3s;
+  box-sizing: border-box; }
+.footer .menu-sp ul {
+  padding: 0px;
+  list-style: none; }
+  .footer .menu-sp ul li {
+    color: #ffffff;
+    padding: 5px 0;
+    border-bottom: solid thin #888888; }
+.footer .absolute-footer {
+  background-color: #5b5b5b;
+  color: #ffffff;
+  padding: 10px; }
+  .footer .absolute-footer .right {
+    float: right; }
 
 /*# sourceMappingURL=main.css.map */
