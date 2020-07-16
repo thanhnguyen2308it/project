@@ -32,6 +32,8 @@ input:focus {
   @media (max-width: 679px) {
     .menu {
       display: none; } }
+  .menu .active {
+    background-color: rgba(102, 102, 102, 0.7) !important; }
   .menu .d-flex {
     align-items: flex-start;
     justify-content: center; }
@@ -98,7 +100,7 @@ input:focus {
 #main h2 {
   color: #555555; }
 #main .box {
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0.255);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.255);
   display: block; }
   #main .box .title-box {
     padding: 15px 0; }

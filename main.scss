@@ -46,7 +46,9 @@ input {
   @media (max-width: 679px) {
     display: none;
   }
-
+  .active {
+    background-color: rgba(102, 102, 102, 0.7) !important;
+  }
   .d-flex {
     align-items: flex-start;
     justify-content: center;
@@ -152,7 +154,7 @@ input {
   }
 
   .box {
-    box-shadow: 0 0 1px rgba(0, 0, 0, .255);
+    box-shadow: 0 0 5px rgba(0, 0, 0, .255);
     display: block;
 
     .title-box {
