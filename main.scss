@@ -100,14 +100,17 @@ h2 {
     }
 
     li {
-      background: red;
+      background-color: #ffffff;
       padding: 0px;
       margin-right: 10px;
       list-style: none;
       width: 100%;
+      border-bottom: solid thin #e2e1e1;
       @media (min-width: 1024px) {
         width: auto;
         padding: 10px 30px;
+        background-color: red;
+        border-bottom: none;
       }
 
       &:hover {
@@ -115,13 +118,14 @@ h2 {
       }
 
       a {
-        color: #ffffff;
+        color: #777777;
         line-height: 30px;
         padding: 10px 15px;
         display: block;
         @media (min-width: 1024px) {
           padding: 0px;
           display: inline-block;
+          color: #ffffff;
         }
       }
     ;
@@ -167,12 +171,13 @@ h2 {
       border-right: .3em solid transparent;
       border-bottom: 0;
       border-left: .3em solid transparent;
-      color: #ffffff;
+      color: #777777;
       position: absolute;
       top: 20px;
       right: 5px;
       font-size: 20px;
       @media (min-width: 1024px) {
+        color: #ffffff;
         position: relative;
         top: 1px;
         right: auto;
@@ -187,12 +192,13 @@ h2 {
     position: static;
     background-color: #f1f1f1 !important;
     min-width: 200px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: none;
     z-index: 1;
     @media (min-width: 1024px) {
       position: absolute;
       left: 0px;
       top: 50px;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     }
   }
 
@@ -206,9 +212,10 @@ h2 {
   .dropdown-content a:hover {
     background-color: #ddd;
   }
-
-  .dropdown:hover .dropdown-content {
-    display: block;
+  @media (min-width: 1024px) {
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
   }
 }
 
