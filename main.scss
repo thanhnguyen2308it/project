@@ -13,6 +13,20 @@ input {
   }
 }
 
+h5 {
+  font-size: 1rem;
+  @media(min-width: 1024px) {
+    font-size: 1.25rem;
+  }
+}
+
+h2 {
+  font-size: 1.25rem;
+  @media(min-width: 1024px) {
+    font-size: 2rem;
+  }
+}
+
 #header {
   background-color: #efefefeb;
 }
@@ -20,9 +34,20 @@ input {
 .logo {
   align-items: center;
   padding: 20px 0;
+  justify-content: center;
+  @media (min-width: 1024px) {
+    justify-content: flex-start;
+  }
 
   .header_logo {
     max-height: 130px;
+  }
+
+  img {
+    max-width: 200px;
+    @media (min-width: 1024px) {
+      max-width: 100%;
+    }
   }
 
   .header-button {
@@ -30,6 +55,10 @@ input {
     background: red;
     border-radius: 20px;
     padding: 7px;
+    display: none;
+    @media (min-width: 1024px) {
+      display: block;
+    }
 
     a {
       color: #ffffff;
@@ -40,6 +69,8 @@ input {
 
 .navbar-toggler {
   display: block;
+  position: absolute;
+  top: 30px;
   @media (min-width: 1024px) {
     display: none;
   }
@@ -78,9 +109,11 @@ input {
         width: auto;
         padding: 10px 30px;
       }
+
       &:hover {
         background-color: rgba(102, 102, 102, 0.7);
       }
+
       a {
         color: #ffffff;
         line-height: 30px;
@@ -255,6 +288,10 @@ input {
 
   .footer-widgets {
     background-color: #777;
+    font-size: 13px;
+    @media (min-width: 1024px) {
+      font-size: 15px;
+    }
 
     h5 {
       margin-top: 10px;
@@ -283,6 +320,10 @@ input {
       padding: 5px;
       margin-bottom: 10px;
       color: #fff;
+      max-width: 150px;
+      @media (min-width: 1024px) {
+        max-width: 250px;
+      }
 
       &::-webkit-input-placeholder {
         color: #ffffff;
@@ -327,6 +368,14 @@ input {
     color: #ffffff;
     padding: 10px;
 
+    .col-md-6 {
+      font-size: 12px;
+      text-align: center;
+      @media (min-width: 1024px) {
+        font-size: 15px;
+      }
+    }
+
     .right {
       float: right;
     }
@@ -343,15 +392,76 @@ input {
   #logo {
     padding: 0px;
   }
+
+  .navbar-toggler {
+    top: 6px;
+  }
 }
 
 .brand-slider {
+  padding-bottom: 50px;
+
   img {
     filter: grayscale(1);
     transition: .25s;
+    height: 75px;
+    max-width: 122px;
 
     &:hover {
       filter: grayscale(0);
+    }
+  }
+
+  .owl-stage-outer {
+    height: 105px;
+  }
+
+  .owl-prev {
+    position: absolute;
+    top: 10%;
+    left: -5px;
+    height: 30px;
+    background-color: #ffffff !important;
+    width: 20px;
+    display: none !important;
+    @media (min-width: 1024px) {
+      display: block !important;
+    }
+
+    span {
+      font-weight: 600;
+      font-size: 25px;
+      line-height: 25px;
+
+      &:hover {
+        color: red;
+      }
+    }
+  }
+
+  .owl-nav button:hover {
+    color: red!important;
+  }
+  .owl-next {
+    position: absolute;
+    top: 10%;
+    right: -5px;
+    height: 30px;
+    background-color: #ffffff !important;
+    width: 20px;
+    display: none !important;
+    @media (min-width: 1024px) {
+      display: block !important;
+    }
+
+    span {
+      font-weight: 600;
+      font-size: 25px;
+      line-height: 25px;
+
+      &:hover {
+        color: red;
+      }
     }
   }
 }
