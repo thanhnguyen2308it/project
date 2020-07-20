@@ -117,7 +117,7 @@ h2 {
   .menu .dropdown {
     position: relative;
     display: inline-block; }
-    .menu .dropdown::after {
+    .menu .dropdown af {
       content: "";
       display: inline-block;
       width: 0;
@@ -134,7 +134,7 @@ h2 {
       right: 5px;
       font-size: 20px; }
       @media (min-width: 1024px) {
-        .menu .dropdown::after {
+        .menu .dropdown af {
           color: #ffffff;
           position: relative;
           top: 1px;
@@ -338,16 +338,27 @@ h2 {
   padding-left: 0px; }
 
 .messangers-block {
+  display: none;
   width: 300px;
   position: fixed;
-  bottom: 80px;
-  right: 50px;
+  bottom: 100px;
+  right: 20px;
   background-color: #ffffff;
   z-index: 999;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.4);
   border-radius: 10px; }
   .messangers-block li {
     list-style: none; }
+  .messangers-block::after {
+    position: absolute;
+    bottom: -7px;
+    right: 25px;
+    left: auto;
+    display: inline-block !important;
+    border-right: 8px solid transparent;
+    border-top: 8px solid #fff;
+    border-left: 8px solid transparent;
+    content: ''; }
   .messangers-block .messanger {
     display: flex;
     -webkit-box-orient: horizontal;
@@ -391,5 +402,47 @@ h2 {
         left: 50%;
         margin-top: -12px;
         margin-left: -12px; }
+
+.arcontactus-message-button {
+  width: 70px;
+  position: fixed;
+  height: 70px;
+  right: 10px;
+  bottom: 20px;
+  background-color: red;
+  border-radius: 50px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer; }
+  .arcontactus-message-button .static {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -19px;
+    margin-left: -26px;
+    width: 52px;
+    height: 52px;
+    text-align: center; }
+    .arcontactus-message-button .static svg {
+      width: 24px;
+      height: 24px;
+      color: #fff; }
+  .arcontactus-message-button p {
+    font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif;
+    color: #fff;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 11px;
+    margin: 0; }
 
 /*# sourceMappingURL=main.css.map */
