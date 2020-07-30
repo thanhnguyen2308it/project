@@ -4,7 +4,6 @@
     <list default="true" id="2ac73352-73d0-412f-81f6-af9cfb2991b2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.sass-cache/337620388ec30aac1bf7a064dba6b22c9809019a/main.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/337620388ec30aac1bf7a064dba6b22c9809019a/main.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/main.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/main.scss" afterDir="false" />
@@ -33,7 +32,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../nenga" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -49,7 +48,8 @@
       <workItem from="1594874433793" duration="1403000" />
       <workItem from="1594880736875" duration="7467000" />
       <workItem from="1594891700163" duration="4296000" />
-      <workItem from="1594958623797" duration="14727000" />
+      <workItem from="1594958623797" duration="15461000" />
+      <workItem from="1596082642904" duration="4492000" />
     </task>
     <servers />
   </component>
