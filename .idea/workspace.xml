@@ -32,7 +32,8 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../nenga" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -49,7 +50,10 @@
       <workItem from="1594880736875" duration="7467000" />
       <workItem from="1594891700163" duration="4296000" />
       <workItem from="1594958623797" duration="15461000" />
-      <workItem from="1596082642904" duration="4492000" />
+      <workItem from="1596082642904" duration="5788000" />
+      <workItem from="1596254135168" duration="662000" />
+      <workItem from="1596416785745" duration="5311000" />
+      <workItem from="1596503256908" duration="7524000" />
     </task>
     <servers />
   </component>
@@ -57,14 +61,18 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1595216437265">
+    <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1596514311759">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1595216437265" />
-    <state x="648" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1594891700379">
+    <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1596514311759" />
+    <state x="482" y="187" key="SettingsEditor" timestamp="1596423969291">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="648" y="380" key="com.intellij.ide.util.TipDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1594891700379" />
+    <state x="482" y="187" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1596423969291" />
+    <state x="648" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1596503257180">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="648" y="380" key="com.intellij.ide.util.TipDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1596503257180" />
     <state x="657" y="253" key="run.anything.popup" timestamp="1594971416662">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>

@@ -286,18 +286,18 @@ h2 {
   .scrolled .navbar-toggler {
     top: 6px; }
 
-.brand-slider {
+.slide-2 .brand-slider {
   padding-bottom: 50px; }
-  .brand-slider img {
+  .slide-2 .brand-slider img {
     filter: grayscale(1);
     transition: .25s;
     height: 75px;
     max-width: 122px; }
-    .brand-slider img:hover {
+    .slide-2 .brand-slider img:hover {
       filter: grayscale(0); }
-  .brand-slider .owl-stage-outer {
+  .slide-2 .brand-slider .owl-stage-outer {
     height: 105px; }
-  .brand-slider .owl-prev {
+  .slide-2 .brand-slider .owl-prev {
     position: absolute;
     top: 10%;
     left: -5px;
@@ -306,17 +306,17 @@ h2 {
     width: 20px;
     display: none !important; }
     @media (min-width: 1024px) {
-      .brand-slider .owl-prev {
+      .slide-2 .brand-slider .owl-prev {
         display: block !important; } }
-    .brand-slider .owl-prev span {
+    .slide-2 .brand-slider .owl-prev span {
       font-weight: 600;
       font-size: 25px;
       line-height: 25px; }
-      .brand-slider .owl-prev span:hover {
+      .slide-2 .brand-slider .owl-prev span:hover {
         color: red; }
-  .brand-slider .owl-nav button:hover {
+  .slide-2 .brand-slider .owl-nav button:hover {
     color: red !important; }
-  .brand-slider .owl-next {
+  .slide-2 .brand-slider .owl-next {
     position: absolute;
     top: 10%;
     right: -5px;
@@ -325,13 +325,13 @@ h2 {
     width: 20px;
     display: none !important; }
     @media (min-width: 1024px) {
-      .brand-slider .owl-next {
+      .slide-2 .brand-slider .owl-next {
         display: block !important; } }
-    .brand-slider .owl-next span {
+    .slide-2 .brand-slider .owl-next span {
       font-weight: 600;
       font-size: 25px;
       line-height: 25px; }
-      .brand-slider .owl-next span:hover {
+      .slide-2 .brand-slider .owl-next span:hover {
         color: red; }
 
 .messangers-list {
@@ -521,5 +521,79 @@ h2 {
       padding: 10px 20px;
       box-shadow: 0 0 5px #ccc;
       border: none; }
+
+#introduce {
+  padding-top: 30px; }
+  #introduce .nav-tabs .nav-item a {
+    color: #777777; }
+  #introduce .active {
+    border-top-color: #dd3333;
+    color: black !important; }
+  #introduce .tab-content {
+    border: 1px solid #ddd;
+    background-color: #fff;
+    padding: 30px;
+    margin-bottom: 50px !important; }
+    #introduce .tab-content .tab-dai-ichi .col-md-8 {
+      position: relative;
+      margin: 0;
+      padding: 0 15px 30px;
+      width: 100%; }
+      #introduce .tab-content .tab-dai-ichi .col-md-8 .col-inner {
+        margin: 0px; }
+        #introduce .tab-content .tab-dai-ichi .col-md-8 .col-inner .col-md-6 {
+          background-color: red;
+          padding: 5px 15px 30px; }
+          #introduce .tab-content .tab-dai-ichi .col-md-8 .col-inner .col-md-6 img {
+            width: 100%; }
+    #introduce .tab-content .country {
+      padding-top: 30px; }
+      #introduce .tab-content .country .col-inner {
+        background-color: #ecedec;
+        padding-left: 5px; }
+  #introduce .slide-3 .owl-carousel {
+    height: 336px; }
+    #introduce .slide-3 .owl-carousel .item {
+      text-align: center;
+      font-size: 13px; }
+      #introduce .slide-3 .owl-carousel .item:hover .show-on-hover {
+        color: #777777; }
+    #introduce .slide-3 .owl-carousel .owl-stage-outer {
+      height: 336px; }
+      #introduce .slide-3 .owl-carousel .owl-stage-outer img {
+        height: 230px;
+        width: 100% !important;
+        margin: 0px !important; }
+    #introduce .slide-3 .owl-carousel .show-on-hover {
+      color: #ffffff; }
+  #introduce .slide-3 .brand-slider .owl-prev {
+    position: absolute;
+    top: 25%;
+    left: -40px;
+    height: 55px;
+    background-color: #ffffff !important;
+    width: 30px;
+    display: block; }
+    #introduce .slide-3 .brand-slider .owl-prev:hover {
+      color: red !important; }
+    #introduce .slide-3 .brand-slider .owl-prev span {
+      font-weight: 600;
+      font-size: 40px; }
+      #introduce .slide-3 .brand-slider .owl-prev span:hover {
+        color: red; }
+  #introduce .slide-3 .brand-slider .owl-next {
+    position: absolute;
+    top: 25%;
+    right: -40px;
+    height: 55px;
+    background-color: #ffffff !important;
+    width: 30px;
+    display: block; }
+    #introduce .slide-3 .brand-slider .owl-next:hover {
+      color: red !important; }
+    #introduce .slide-3 .brand-slider .owl-next span {
+      font-size: 40px; }
+      #introduce .slide-3 .brand-slider .owl-next span:hover {
+        color: red; }
 
 /*# sourceMappingURL=main.css.map */
