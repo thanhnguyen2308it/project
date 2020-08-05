@@ -551,11 +551,90 @@ h2 {
       #introduce .tab-content .country .col-inner {
         background-color: #ecedec;
         padding-left: 5px; }
+    #introduce .tab-content .slide-year {
+      padding: 30px 0;
+      text-align: center; }
+      #introduce .tab-content .slide-year .dash-year {
+        height: 2px;
+        background: #a7a2a2;
+        position: relative;
+        top: 25px;
+        margin: 0 70px; }
+      #introduce .tab-content .slide-year .slider2 .btn-year {
+        width: 45px;
+        height: 45px;
+        background: red !important;
+        border-color: red !important;
+        border-radius: 50%;
+        border: none;
+        margin-bottom: 10px;
+        margin-left: 43%; }
+      #introduce .tab-content .slide-year .slider2 .year {
+        color: red; }
+      #introduce .tab-content .slide-year .owl-prev {
+        position: absolute;
+        top: 5%;
+        left: 0px;
+        height: 40px;
+        background-color: #ffffff !important;
+        width: 40px;
+        border-radius: 30px;
+        border: solid thin #7777; }
+        #introduce .tab-content .slide-year .owl-prev:hover {
+          color: red !important; }
+        #introduce .tab-content .slide-year .owl-prev span {
+          font-size: 40px;
+          position: absolute;
+          top: -12px;
+          right: 12px; }
+          #introduce .tab-content .slide-year .owl-prev span:hover {
+            color: red; }
+      #introduce .tab-content .slide-year .owl-next {
+        position: absolute;
+        top: 0%;
+        right: 0px;
+        height: 40px;
+        background-color: #ffffff !important;
+        width: 40px;
+        display: block;
+        border: solid thin #7777;
+        border-radius: 30px; }
+        #introduce .tab-content .slide-year .owl-next:hover {
+          color: red !important; }
+        #introduce .tab-content .slide-year .owl-next span {
+          font-size: 40px;
+          position: absolute;
+          top: -12px;
+          right: 10px; }
+          #introduce .tab-content .slide-year .owl-next span:hover {
+            color: red; }
+      #introduce .tab-content .slide-year .item .content-year {
+        margin: 10px;
+        padding: 0 20px; }
+        #introduce .tab-content .slide-year .item .content-year h2 {
+          color: #777777; }
+        @media (min-width: 1024px) {
+          #introduce .tab-content .slide-year .item .content-year {
+            margin: 20px;
+            padding: 0 50px; } }
+      #introduce .tab-content .slide-year .title-year {
+        border-bottom: 2px solid #ececec;
+        font-weight: 600;
+        width: 100%;
+        color: red;
+        text-align: left;
+        padding-bottom: 20px;
+        margin-bottom: 50px; }
   #introduce .slide-3 .owl-carousel {
     height: 336px; }
     #introduce .slide-3 .owl-carousel .item {
       text-align: center;
       font-size: 13px; }
+      #introduce .slide-3 .owl-carousel .item .img {
+        height: 222px;
+        overflow: hidden;
+        display: flex;
+        align-items: flex-end; }
       #introduce .slide-3 .owl-carousel .item:hover .show-on-hover {
         color: #777777; }
     #introduce .slide-3 .owl-carousel .owl-stage-outer {
