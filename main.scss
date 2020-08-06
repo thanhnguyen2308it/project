@@ -405,6 +405,7 @@ h2 {
     top: 6px;
   }
 }
+
 .slide-2 {
   .brand-slider {
     padding-bottom: 50px;
@@ -609,16 +610,20 @@ h2 {
     margin: 0;
   }
 }
+
 #contact {
   padding-top: 30px;
+
   .col-inner {
     .map {
       .title-map {
         margin-bottom: 30px;
+
         h2 {
           border-bottom: 2px solid #ececec;
           width: 100%;
           padding-bottom: 7px;
+
           span {
             color: red;
             margin-right: 15px;
@@ -719,6 +724,7 @@ h2 {
 
 #introduce {
   padding-top: 30px;
+
   .nav-tabs {
     .nav-item {
       a {
@@ -726,15 +732,18 @@ h2 {
       }
     }
   }
+
   .active {
     border-top-color: #dd3333;
     color: black !important;
   }
+
   .tab-content {
     border: 1px solid #ddd;
     background-color: #fff;
     padding: 30px;
     margin-bottom: 50px !important;
+
     .tab-dai-ichi {
       .col-md-8 {
         position: relative;
@@ -765,9 +774,11 @@ h2 {
         padding-left: 5px;
       }
     }
+
     .slide-year {
       padding: 30px 0;
       text-align: center;
+
       .dash-year {
         height: 2px;
         background: #a7a2a2;
@@ -775,6 +786,7 @@ h2 {
         top: 25px;
         margin: 0 70px;
       }
+
       .slider2 {
         .btn-year {
           width: 45px;
@@ -786,10 +798,12 @@ h2 {
           margin-bottom: 10px;
           margin-left: 43%;
         }
+
         .year {
           color: red;
         }
       }
+
       .owl-prev {
         position: absolute;
         top: 5%;
@@ -799,19 +813,23 @@ h2 {
         width: 40px;
         border-radius: 30px;
         border: solid thin #7777;
+
         &:hover {
           color: red !important;
         }
+
         span {
           font-size: 40px;
           position: absolute;
           top: -12px;
           right: 12px;
+
           &:hover {
             color: red;
           }
         }
       }
+
       .owl-next {
         position: absolute;
         top: 0%;
@@ -822,32 +840,39 @@ h2 {
         display: block;
         border: solid thin #7777;
         border-radius: 30px;
+
         &:hover {
           color: red !important;
         }
+
         span {
           font-size: 40px;
           position: absolute;
           top: -12px;
           right: 10px;
+
           &:hover {
             color: red;
           }
         }
       }
+
       .item {
         .content-year {
           margin: 10px;
           padding: 0 20px;
+
           h2 {
             color: #777777;
           }
+
           @media (min-width: 1024px) {
             margin: 20px;
             padding: 0 50px;
           }
         }
       }
+
       .title-year {
         border-bottom: 2px solid #ececec;
         font-weight: 600;
@@ -859,37 +884,45 @@ h2 {
       }
     }
   }
+
   .slide-3 {
     .owl-carousel {
       height: 336px;
+
       .item {
         text-align: center;
         font-size: 13px;
+
         .img {
           height: 222px;
           overflow: hidden;
           display: flex;
           align-items: flex-end;
         }
+
         &:hover {
           .show-on-hover {
             color: #777777;
           }
         }
       }
+
       .owl-stage-outer {
         height: 336px;
+
         img {
           height: 230px;
           width: 100% !important;
           margin: 0px !important;
         }
       }
+
       .show-on-hover {
         color: #ffffff;
       }
     }
-    .brand-slider{
+
+    .brand-slider {
       .owl-prev {
         position: absolute;
         top: 25%;
@@ -898,17 +931,21 @@ h2 {
         background-color: #ffffff !important;
         width: 30px;
         display: block;
+
         &:hover {
           color: red !important;
         }
+
         span {
           font-weight: 600;
           font-size: 40px;
+
           &:hover {
             color: red;
           }
         }
       }
+
       .owl-next {
         position: absolute;
         top: 25%;
@@ -917,11 +954,14 @@ h2 {
         background-color: #ffffff !important;
         width: 30px;
         display: block;
+
         &:hover {
           color: red !important;
         }
+
         span {
           font-size: 40px;
+
           &:hover {
             color: red;
           }
@@ -929,5 +969,44 @@ h2 {
       }
     }
 
+  }
+}
+
+#product {
+  padding: 30px 0;
+  .title-product {
+    margin-bottom: 2rem;
+    h2 {
+      color: red;
+      font-weight: 500;
+      border-bottom: 2px solid #ececec;
+      padding-bottom: 7px;
+      span  {
+        border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+        padding-bottom: 7px;
+      }
+    }
+  }
+  .col-inner {
+    p {
+      margin-bottom: 1rem;
+    }
+  }
+  .box-product {
+    margin-top: 20px;
+    img {
+      width: 100%;
+      height: 140px;
+      @media (min-width: 1024px) {
+        width: 250px;
+      }
+    }
+    .box-text {
+      padding-top: 1.5em;
+      padding-bottom: 1.4em;
+      position: relative;
+      width: 100%;
+      font-size: .9em;
+    }
   }
 }
