@@ -711,13 +711,6 @@ h2 {
   padding: 30px 0; }
   #invest img {
     max-width: 100% !important; }
-  #invest .accordion-inner {
-    padding: 1rem 2rem;
-    display: none; }
-    #invest .accordion-inner .col-md-3 {
-      padding-bottom: 30px; }
-      #invest .accordion-inner .col-md-3 .box-text {
-        padding-top: .7em; }
   #invest .section-title {
     border-bottom: solid 2px #eaeaea;
     padding-bottom: 7.5px;
@@ -725,36 +718,58 @@ h2 {
     #invest .section-title span {
       border-bottom: solid 2px #bbb9b9;
       padding-bottom: 7.5px; }
-  #invest .accordion-title {
-    position: relative;
-    font-size: 110%;
-    padding: .6em 2.3em;
-    display: block;
-    border-top: 1px solid #ddd;
-    color: currentColor;
-    background-color: rgba(0, 0, 0, 0.03); }
-    #invest .accordion-title::after {
-      content: "";
-      color: #333;
-      width: 10px;
-      height: 10px;
-      transform: rotate(-45deg);
-      transition: 0.5s;
-      border-left: solid 2px #777777;
-      border-bottom: solid 2px #777777;
-      top: 18px;
-      left: 10px;
-      font-weight: 500;
-      position: absolute; }
-  #invest .panel-title[aria-expanded="true"]::after {
-    content: "\f106"; }
-  #invest .test {
+
+.accordion-inner {
+  padding: 1rem 2rem;
+  display: none; }
+  .accordion-inner .col-md-3 {
+    padding-bottom: 30px; }
+    .accordion-inner .col-md-3 .box-text {
+      padding-top: .7em; }
+
+.accordion-title {
+  position: relative;
+  font-size: 110%;
+  padding: .6em 2.3em;
+  display: block;
+  border-top: 1px solid #ddd;
+  color: #969696;
+  background-color: rgba(0, 0, 0, 0.03); }
+  .accordion-title::after {
+    content: "";
+    color: #333;
+    width: 10px;
+    height: 10px;
+    transform: rotate(-45deg);
+    transition: 0.5s;
+    border-left: solid 2px #969696;
+    border-bottom: solid 2px #969696;
+    top: 18px;
+    left: 10px;
+    font-weight: 500;
+    position: absolute; }
+  .accordion-title:hover {
+    color: black;
+    transition: .5s; }
+    .accordion-title:hover::after {
+      border-left: solid 2px #000000;
+      border-bottom: solid 2px #000000;
+      transition: 1s; }
+
+.test {
+  color: red;
+  border-top-color: red; }
+  .test::after {
+    transform: rotate(-225deg);
+    transition: 0.5s;
+    border-left-color: red;
+    border-bottom-color: red; }
+  .test:hover {
     color: red;
-    border-top-color: red; }
-    #invest .test::after {
-      transform: rotate(-225deg);
-      transition: 0.5s;
-      border-left-color: red;
-      border-bottom-color: red; }
+    transition: .5s; }
+    .test:hover::after {
+      border-left: solid 2px red;
+      border-bottom: solid 2px red;
+      transition: 1s; }
 
 /*# sourceMappingURL=main.css.map */
