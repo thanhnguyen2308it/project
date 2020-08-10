@@ -26,7 +26,9 @@ h2 {
     font-size: 2rem;
   }
 }
-
+#masthead {
+background-color: #ffffff;
+}
 #header {
   background-color: #efefefeb;
 }
@@ -974,26 +976,32 @@ h2 {
 
 #product {
   padding: 30px 0;
+
   .title-product {
     margin-bottom: 2rem;
+
     h2 {
       color: red;
       font-weight: 500;
       border-bottom: 2px solid #ececec;
       padding-bottom: 7px;
-      span  {
+
+      span {
         border-bottom: 2px solid rgba(0, 0, 0, 0.1);
         padding-bottom: 7px;
       }
     }
   }
+
   .col-inner {
     p {
       margin-bottom: 1rem;
     }
   }
+
   .box-product {
-    margin-top: 20px;
+    margin: 20px 0 40px 0;
+
     img {
       width: 100%;
       height: 140px;
@@ -1001,12 +1009,74 @@ h2 {
         width: 250px;
       }
     }
+
     .box-text {
       padding-top: 1.5em;
       padding-bottom: 1.4em;
       position: relative;
       width: 100%;
       font-size: .9em;
+    }
+  }
+}
+#invest {
+  padding: 30px 0;
+  img {
+    max-width: 100% !important;
+  }
+  .accordion-inner {
+    padding: 1rem 2rem;
+    display: none;
+    .col-md-3 {
+      padding-bottom: 30px;
+      .box-text {
+        padding-top: .7em;
+      }
+    }
+  }
+  .section-title {
+    border-bottom: solid 2px #eaeaea;
+    padding-bottom: 7.5px;
+    margin-bottom: 1.5em;
+    span  {
+      border-bottom: solid 2px #bbb9b9;
+      padding-bottom: 7.5px;
+    }
+  }
+  .accordion-title {
+    position: relative;
+    font-size: 110%;
+    padding: .6em 2.3em;
+    display: block;
+    border-top: 1px solid #ddd;
+    color: currentColor;
+    background-color: rgba(0,0,0,0.03);
+    &::after {
+      content: "";
+      color: #333;
+      width: 10px;
+      height: 10px;
+      transform: rotate(-45deg);
+      transition: 0.5s;
+      border-left: solid 2px #777777;
+      border-bottom: solid 2px #777777;
+      top: 18px;
+      left: 10px;
+      font-weight: 500;
+      position: absolute;
+    }
+  }
+  .panel-title[aria-expanded="true"]::after {
+    content: "\f106";
+  }
+  .test {
+    color: red;
+    border-top-color: red;
+    &::after {
+      transform: rotate(-225deg);
+      transition: 0.5s;
+      border-left-color: red;
+      border-bottom-color: red;
     }
   }
 }
