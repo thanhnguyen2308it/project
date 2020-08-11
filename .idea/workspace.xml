@@ -4,9 +4,11 @@
     <list default="true" id="2ac73352-73d0-412f-81f6-af9cfb2991b2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.sass-cache/337620388ec30aac1bf7a064dba6b22c9809019a/main.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/337620388ec30aac1bf7a064dba6b22c9809019a/main.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/invest.html" beforeDir="false" afterPath="$PROJECT_DIR$/invest.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/main.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/saving.html" beforeDir="false" afterPath="$PROJECT_DIR$/saving.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +62,8 @@
       <workItem from="1597023291571" duration="20000" />
       <workItem from="1597023322057" duration="64000" />
       <workItem from="1597023428838" duration="2185000" />
-      <workItem from="1597045230344" duration="11422000" />
+      <workItem from="1597045230344" duration="11982000" />
+      <workItem from="1597110305762" duration="3726000" />
     </task>
     <servers />
   </component>
@@ -76,10 +79,10 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="482" y="187" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1596423969291" />
-    <state x="648" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1597045230551">
+    <state x="648" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1597110305465">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="648" y="380" key="com.intellij.ide.util.TipDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1597045230551" />
+    <state x="648" y="380" key="com.intellij.ide.util.TipDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1597110305465" />
     <state x="657" y="253" key="run.anything.popup" timestamp="1594971416662">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>

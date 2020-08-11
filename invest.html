@@ -727,29 +727,6 @@
 <script src="js/owl.carousel.min.js"></script>
 <script>
     $(document).ready(function () {
-        $('.owl-carousel').owlCarousel({
-            loop: true,
-            margin: 10,
-            nav: true,
-            autoplay: true,
-            autoplayTimeout: 3000,
-            dots: false,
-            responsiveClass: true,
-            responsive: {
-                0: {
-                    items: 3,
-                    nav: true
-                },
-                600: {
-                    items: 3,
-                    nav: false
-                },
-                1000: {
-                    items: 5,
-                    nav: true,
-                }
-            }
-        })
         $(window).scroll(function () {
             let scroll = $(window).scrollTop();
             if (scroll > 0) {

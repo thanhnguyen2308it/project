@@ -707,15 +707,15 @@ h2 {
       width: 100%;
       font-size: .9em; }
 
-#invest, #saving {
+#invest, #saving, #retire {
   padding: 30px 0; }
-  #invest img, #saving img {
+  #invest img, #saving img, #retire img {
     max-width: 100% !important; }
-  #invest .section-title, #saving .section-title {
+  #invest .section-title, #saving .section-title, #retire .section-title {
     border-bottom: solid 2px #eaeaea;
     padding-bottom: 7.5px;
     margin-bottom: 1.5em; }
-    #invest .section-title span, #saving .section-title span {
+    #invest .section-title span, #saving .section-title span, #retire .section-title span {
       border-bottom: solid 2px #bbb9b9;
       padding-bottom: 7.5px; }
 
