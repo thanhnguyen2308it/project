@@ -707,27 +707,27 @@ h2 {
       width: 100%;
       font-size: .9em; }
 
-#invest, #saving, #retire, #protect, #health, #fatal-disease {
+.main-custom {
   padding: 30px 0; }
-  #invest img, #saving img, #retire img, #protect img, #health img, #fatal-disease img {
+  .main-custom img {
     max-width: 100% !important; }
-  #invest .section-title, #saving .section-title, #retire .section-title, #protect .section-title, #health .section-title, #fatal-disease .section-title {
+  .main-custom .section-title {
     border-bottom: solid 2px #eaeaea;
     padding-bottom: 7.5px;
     margin-bottom: 1.5em; }
-    #invest .section-title span, #saving .section-title span, #retire .section-title span, #protect .section-title span, #health .section-title span, #fatal-disease .section-title span {
+    .main-custom .section-title span {
       border-bottom: solid 2px #bbb9b9;
       padding-bottom: 7.5px; }
-  #invest table .first, #saving table .first, #retire table .first, #protect table .first, #health table .first, #fatal-disease table .first {
+  .main-custom table .first {
     position: relative;
     top: 10px; }
-  #invest table .second, #saving table .second, #retire table .second, #protect table .second, #health table .second, #fatal-disease table .second {
+  .main-custom table .second {
     padding: .5em;
     text-align: left;
     border-bottom: 1px solid #ececec;
     line-height: 1.3;
     font-size: .9em; }
-  #invest .border-bt, #saving .border-bt, #retire .border-bt, #protect .border-bt, #health .border-bt, #fatal-disease .border-bt {
+  .main-custom .border-bt {
     border-bottom: solid thin #dcdcdc; }
 
 .accordion-inner {
